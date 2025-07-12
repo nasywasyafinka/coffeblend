@@ -4,7 +4,7 @@
 
 <section class="home-slider owl-carousel">
 
-      <div class="slider-item" style="background-image: url({{asset('asset/images/bg_1.jpg')}});">
+      <div class="slider-item" style="background-image: url({{asset('assets/images/bg_1.jpg')}});">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row slider-text justify-content-center align-items-center">

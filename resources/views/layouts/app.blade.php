@@ -236,8 +236,7 @@
                         Copyright &copy;
                         <script>
                             document.write(new Date().getFullYear());
-                        </script> All rights reserved | This template is made with <i class="icon-heart"
-                            aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                        </script> All rights reserved 
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </p>
                 </div>
@@ -255,23 +254,23 @@
 
 
 
-    <script src="{{ asset('asset/js/jquery.min.js') }}"></script>
-    <script src="{{ asset('asset/js/jquery-migrate-3.0.1.min.js') }}"></script>
-    <script src="{{ asset('asset/js/popper.min.js') }}"></script>
-    <script src="{{ asset('asset/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('asset/js/jquery.easing.1.3.js') }}"></script>
-    <script src="{{ asset('asset/js/jquery.waypoints.min.js') }}"></script>
-    <script src="{{ asset('asset/js/jquery.stellar.min.js') }}"></script>
-    <script src="{{ asset('asset/js/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('asset/js/jquery.magnific-popup.min.js') }}"></script>
-    <script src="{{ asset('asset/js/aos.js') }}"></script>
-    <script src="{{ asset('asset/s/jquery.animateNumber.min.js') }}"></script>
-    <script src="{{ asset('asset/js/bootstrap-datepicker.js') }}"></script>
-    <script src="{{ asset('asset/js/jquery.timepicker.min.js') }}"></script>
-    <script src="{{ asset('asset/js/scrollax.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery-migrate-3.0.1.min.js') }}"></script>
+    <script src="{{ asset('assets/js/popper.min.js') }}"></script>
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.easing.1.3.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.waypoints.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.stellar.min.js') }}"></script>
+    <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('assets/js/aos.js') }}"></script>
+    <script src="{{ asset('assets/s/jquery.animateNumber.min.js') }}"></script>
+    <script src="{{ asset('assets/js/bootstrap-datepicker.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.timepicker.min.js') }}"></script>
+    <script src="{{ asset('assets/js/scrollax.min.js') }}"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-    <script src="{{ asset('asset/js/google-map.js') }}"></script>
-    <script src="{{ asset('asset/js/main.js') }}"></script>
+    <script src="{{ asset('assets/js/google-map.js') }}"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
 </body>
 
 </html>

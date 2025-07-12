@@ -25,10 +25,10 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected function authenticated(\Illuminate\Http\Request $request, $user)
-    {
-        return redirect('/home')->with('status', 'You are logged in!');
-    }
+    // protected function authenticated(\Illuminate\Http\Request $request, $user)
+    // {
+    //     return redirect('/home')->with('status', 'You are logged in!');
+    // }
 
     protected $redirectTo = '/home';
 

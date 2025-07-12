@@ -7,6 +7,7 @@ use App\Models\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Http\Request;
 
 class RegisterController extends Controller
 {
@@ -28,13 +29,15 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/welcome';
 
     /**
      * Create a new controller instance.
      *
      * @return void
      */
+
+
     public function __construct()
     {
         $this->middleware('guest');
@@ -68,5 +71,10 @@ class RegisterController extends Controller
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
         ]);
+    }
+    protected function registered(Request $request, $user)
+    {
+        // Tidak melakukan Auth::login() otomatis
+        return redirect('/')->with('success', 'Registrasi berhasil! Silakan login.');
     }
 }
